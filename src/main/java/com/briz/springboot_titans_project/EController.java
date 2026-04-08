@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class EController {
+ 
+@RequestMapping("/Mukesh")
+public String getMukesh() {
+	return "Hello Mukesh";
+}
+}
 	@Autowired
 	ERepository ERepository;
 	
